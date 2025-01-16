@@ -79,7 +79,7 @@ values = [avg_bias, avg_variance, avg_mse - avg_bias - avg_variance]
 sns.barplot(x=components, y=values, palette="viridis")
 plt.title("MSE Decomposition")
 plt.ylabel("Value")
-plt.ylim(0, 1)
+plt.ylim(-1, 1)
 st.pyplot(fig2)
 
 # Code and Data Sharing
