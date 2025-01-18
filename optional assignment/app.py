@@ -8,9 +8,6 @@ from sklearn.pipeline import make_pipeline
 from sklearn.metrics import mean_squared_error
 
 # Set up the Streamlit app
-print("Code is running correctly!")
-st.write("App is loading...")
-
 st.title("Bias-Variance Tradeoff Visualization")
 st.write("""
 This app illustrates the Mean Squared Error (MSE) decomposition into Bias and Variance.
@@ -81,10 +78,3 @@ plt.title("MSE Decomposition")
 plt.ylabel("Value")
 plt.ylim(-1, 1)
 st.pyplot(fig2)
-
-# Code and Data Sharing
-st.subheader("Submission Details")
-st.write("""
-- **Code and data**: Host this code on a platform like GitHub.
-- **Deployment**: Use Streamlit Cloud for hosting the app.
-""")
