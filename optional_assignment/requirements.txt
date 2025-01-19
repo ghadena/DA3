@@ -22,9 +22,9 @@ MarkupSafe==3.0.2
 matplotlib==3.7.2
 mdurl==0.1.2
 narwhals==1.22.0
-numpy==1.25.2
+numpy
 packaging==23.2
-pandas==2.2.3
+pandas
 Pillow==9.5.0
 protobuf==4.25.5
 pyarrow==19.0.0
