@@ -1,3 +1,2 @@
 assignment_1/data/clean/airbnb_madrid_cleaned.csv filter=lfs diff=lfs merge=lfs -text
 assignment_1/data/raw/reviews.csv.gz filter=lfs diff=lfs merge=lfs -text
-assignment_1/data/clean/airbnb_madrid_workfile_adj.csv filter=lfs diff=lfs merge=lfs -text
